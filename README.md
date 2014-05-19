@@ -31,7 +31,7 @@ If you get an error that says `-bash: make: command not found`, then run `yum -y
 
 ### What's next?
 
-__Open you favorite web browser__ and head over to port 8888 on your server. If your server's IP address was `222.222.222.222` then you'd enter `222.222.222.222:8888` in your browser's address bar. _You should see a BitTorrent Sync page._
+__Open your favorite web browser__ and head over to port 8888 on your server. If your server's IP address was `222.222.222.222` then you'd enter `222.222.222.222:8888` in your browser's address bar. _You should see a BitTorrent Sync page._
 
 #### Create a Password!
 The first thing to do is create a __username__ and __password__ for the BTSync web UI by going to _Preferences > Authorization_. After you create your password you'll be asked to log in. __If your credentials appear not to work__, quit and restart your browser (this happens to me every time). After that you should be good to go. _Happy syncing!_
