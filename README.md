@@ -21,7 +21,6 @@ The script will take a few minutes to run. It will __update__ your server via __
 ```
 The system is going down for reboot NOW!
 Connection to XXX.XXX.XXX.XXX closed by remote host.
-Connection to XXX.XXX.XXX.XXX closed.
 ```
 
 _NOTE: If you get an error that says `-bash: make: command not found`, you'll need to [install make first](https://github.com/iseem/btsyncbox#make-is-not-installed), and then re-run the `curl` command above._
