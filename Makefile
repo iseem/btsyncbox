@@ -44,7 +44,7 @@ all: update epel firewall fail2ban btsync clean reboot
 # If you object to installing EPEL, you can run a less opinionated routine 
 # with 'make base' instead of 'make'.
 .PHONY: base
-all: update firewall btsync clean reboot
+base: update firewall btsync clean reboot
 
 .PHONY: update
 update:
