@@ -23,7 +23,13 @@ The system is going down for reboot NOW!
 Connection to XXX.XXX.XXX.XXX closed by remote host.
 ```
 
-_NOTE: If you get an error that says `-bash: make: command not found`, you'll need to [install make first](https://github.com/iseem/btsyncbox#make-is-not-installed), and then re-run the `curl` command above._
+If you get an error that says `-bash: make: command not found`, you'll need to install make first, and then re-run the `curl` command above.
+
+```
+yum -y install make
+```
+
+
 
 #### What Next?
 
@@ -31,17 +37,4 @@ If you've come this far then your BTSync server should be ready to go! __Open yo
 
 #### Create a Password!
 The first thing to do is create a __username__ and __password__ for the web UI by going to _Preferences > Authorization_. After you create your password you'll be asked to log in. __If your credentials appear not to work__, quit and restart your browser (this happens to me every time). After that you should be good to go.
-
-
-
-### Troubleshooting 
-##### Make is not installed
-If you get an error that says `-bash: make: command not found`, you'll need to install `make`:
-
-```
-yum -y install make
-```
-Once `make` is installed, return to the [Install section above](https://github.com/iseem/btsyncbox#install).
-
-
 
