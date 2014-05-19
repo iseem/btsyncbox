@@ -5,7 +5,7 @@ __This one-line installer makes it easy to set up BitTorrent Sync on a remote Ce
 
 ### Requirements
 
-This script has been tested on a __CentOS 6.5 x64__ droplet on [DigitalOcean](https://www.digitalocean.com/?refcode=ae33c2146dbb). The assumption is that you have just set up a __brand new__ CentOS 6.5 x64 instance that will be dedicated to running BitTorrent Sync. The script expects to run as root. _Running this script on a server that you are already using for other purposes could lead to various problems._
+This script has been tested on a __CentOS 6.5 x64__ droplet on [DigitalOcean](https://www.digitalocean.com/?refcode=ae33c2146dbb). The assumption is that you have just set up a __brand new__ CentOS 6.5 x64 instance that will be dedicated to running BitTorrent Sync. _Running this script on a server that you are already using for other purposes could lead to various problems._
 
 
 ### Install
@@ -16,7 +16,7 @@ Once you have your new server's IP address and root password, `ssh` to your serv
 curl -L https://raw.githubusercontent.com/iseem/btsyncbox/master/Makefile > Makefile && make
 ```
 
-The script will take a few minutes to run. If all goes well, your __ssh__ connection will be terminated and you will see something like this:
+The script will take a few minutes to run. If all goes well, your `ssh` connection will be terminated and you will see something like this:
 
 ```
 The system is going down for reboot NOW!
